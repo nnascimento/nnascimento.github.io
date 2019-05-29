@@ -5,5 +5,175 @@
 # To change the home page layout, edit the _layouts/home.html file.
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 #
-layout: home
+layout: default
 ---
+
+<main>
+
+<div class="row">
+  <div class="column column1">
+    <img src="imagens/perfilnatali.png" alt="Foto de Perfil">
+  </div>
+  <div class="column">
+    <h2>Great design is more about the users than the maker</h2>
+    <p>Motivated Designer always looking for a good new challenge to wrap my mind into. Started my journey in Communication Design, aiming for more decided to adventure myself into a post degree in Digital Expirience Design. Growing interest and curiosity in projects concerning Digital Design, Interaction Design, User Experience, User Interface, WebDesign, AppDesign, and what more the world has to offer. You can check out my portfolio in the links below!</p>
+    <button type="button" name="button"><a href="#contacts">Contacts</a></button>
+  </div>
+</div>
+
+<section id="skills">
+  <div class="row">
+    <div class="column column1">
+      <h1>Skills</h1>
+    </div>
+    <div class="column">
+      <ul>
+        <li>
+          <img src="imagens/ux.svg" alt="icon ux desgin" class="icons">
+          <h2>User Experience Design</h2>
+          <span title="Descrição">Participated in undertanding and design phases of multiple projects, including user and competitive research, interviews, user flows, site map and various other communication assets</span>
+        </li>
+        <li>
+          <img src="imagens/ui.svg" alt="icon ui design" class="icons">
+          <h2>User Interface Design</h2>
+          <span title="Descrição">Motivated to continuously grow, creating better interfaces for the user and developing tyle style, applying them in intuitive interfaces. Developing low and high fidelity mockups and prototypes.</span>
+        </li>
+        <li>
+          <img src="imagens/graphicdesign.svg" alt="icon ui design" class="icons">
+          <h2>Graphic Design</h2>
+          <span title="Descrição">Participated in several projects, with national and international focus, developed branding concepts from scratch, corporate identities, packaging, wine labels and various other communication projects.</span>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="column column1 column1-padding">
+      <h1>Tools</h1>
+    </div>
+    <div class="column tools column1-padding">
+      <ul>
+        <li>
+          <img src="imagens/figma.svg" alt="icon figma" class="icons">
+        </li>
+        <li>
+          <img src="imagens/sketch.svg" alt="icon sketch" class="icons">
+        </li>
+        <li>
+          <img src="imagens/photoshop.svg" alt="icon photoshop" class="icons">
+        </li>
+        <li>
+          <img src="imagens/illustrator.svg" alt="icon illustrator" class="icons">
+        </li>
+        <li>
+          <img src="imagens/after-effects.svg" alt="icon after-effects" class="icons">
+        </li>
+        <li>
+          <img src="imagens/html5.svg" alt="icon HTML5" class="icons">
+        </li>
+        <li>
+          <img src="imagens/css3.svg" alt="icon CSS3" class="icons">
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="container" id="projects">
+  <div class="row">
+    <div class="column column1">
+      <h1>Latest projects</h1>
+    </div>
+  </div>
+
+  <section>
+    <ul>
+      <li>
+        <figure>
+          <img src="imagens/projects2.png" alt="#">
+          <h4>Web App Doctor Sizo</h4>
+          <legend> A platform designed to find dentists in areas close to the user's location, with reviews and comments from other users. #InterfaceDesign #InteractionDesign
+          </legend>
+        </figure>
+      </li>
+      <li>
+        <figure>
+          <img src="imagens/projects3.png" alt="#">
+          <h4>Self Driving Cars Research</h4>
+          <legend> #UX #UXRearch #SelfDrivingCars #Sustainability
+          </legend>
+        </figure>
+      </li>
+      <li>
+        <figure>
+          <img src="imagens/projects4.png" alt="#">
+          <h4>Website Porbatata</h4>
+          <legend> #ClientPorbatata #CompanyTerraProjectos
+          </legend>
+        </figure>
+      </li>
+      <li>
+        <figure>
+          <img src="imagens/projects5.png" alt="#">
+          <h4>Website Frutas Tereso</h4>
+          <legend> #ClientFrutasTereso #CompanyTerraProjectos #Branding #Packaging #Website
+          </legend>
+        </figure>
+      </li>
+      <li>
+        <figure>
+          <img src="imagens/projects1.png" alt="#">
+          <h4>Emissão de Selos 2017</h4>
+          <legend>
+            #Frutas de Portugal #CTT #CompanyTerraProjectos #Illustrstion
+          </legend>
+        </figure>
+      </li>
+      <li>
+        <figure>
+          <img src="imagens/projects6.png" alt="#">
+          <h4>O Baralho dos Proverbios</h4>
+          <legend> Project developed in the Master Degree Dissertation, #Illustration #Cards #Proverbs
+          </legend>
+        </figure>
+      </li>
+    </ul>
+  </section>
+</section>
+
+<section id="about">
+  <div class="row">
+    <div class="column column1">
+      <h1>About</h1>
+      <img src="imagens/perfilnatali.png" alt="Foto de Perfil">
+      <p>Motivated Designer always looking for a good new challenge to wrap my mind into. Started my journey in Communication Design, aiming for more decided to adventure myself into a post degree in Digital Expirience Design. Growing interest and curiosity in projects concerning Digital Design, Interaction Design, User Experience, User Interface, WebDesign, AppDesign, VR/AR Design, and what more the world has to offer.</p>
+    </div>
+    <div class="column">
+      <ul>
+        <li>
+          <img src="imagens/suitcase.svg" alt="icon experiência" class="icons">
+          <h3>Digital & Print Designer</h3>
+          <span title="Cargo">TerraProjectos</span>
+          <span title="Data">2013 -presente.</span>
+          <span title="Descrição">Graphic material design for several national and international clients; Creation and development of proposals for various corporate identities; work alongside the marketing and development team.</span>
+        </li>
+        <li>
+          <img src="imagens/mortarboard.svg" alt="icon formação" class="icons">
+          <h3>Pós Graduação em Digital Experience Design</h3>
+          <span title="Titulo">Faculdade de Belas Artes da Univercidade de Lisboa</span>
+          <span title="Data">2017-2018</span>
+          <span title="Descrição">The course is focused on the areas of: Digital Experience Design; User experience design; Interface design; Languages ​​and Technologies (programming)</span>
+        </li>
+        <li>
+          <img src="imagens/mortarboard.svg" alt="icon formação" class="icons">
+          <h3>Master Degree on Comunication Design</h3>
+          <span title="Titulo">Faculdade de Arquitectura da Univercidade de Lisboa</span>
+          <span title="data">2008-2011</span>
+          <span title="Descrição">Advanced skills in design in the various scales and dimensions (conceptual, cultural, social, technological, productive, organizational); Technological skills in the field of prepress and digital finishing art;</span>
+        </li>
+      </ul>
+      <button type="button" name="button"><a href="imagens/cv.pdf" target="_blank"> Complete Resume</a></button>
+    </div>
+  </div>
+</section>
+</main>

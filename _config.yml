@@ -1,8 +1,8 @@
-title: Jekyll DXD Workshop
+title: Portfolio NNascimento
 author: Natali Nascimento
 email: natali@nascimento.com
 description: > # this means to ignore newlines until "exclude"
-  How jekyll works
+  alterar descrição
 
 exclude:
   - Gemfile
@@ -17,6 +17,6 @@ date_format: "%b %-d, %Y"
 
 # generate social links in footer
 social_links:
-  twitter: danielfdsilva
-  github:  danielfdsilva
+  linkedin: alterar
+  medium:  alterar
   # facebook:

@@ -88,55 +88,17 @@ layout: default
 
   <section>
     <ul>
+
+      {% for post in site.posts %}
       <li>
         <figure>
-          <img src="assets/images/projects2.png" alt="#">
-          <h4>Web App Doctor Sizo</h4>
-          <legend> A platform designed to find dentists in areas close to the user's location, with reviews and comments from other users. #InterfaceDesign #InteractionDesign
-          </legend>
+          <img src="{{ post.image | escape }}" alt="#">
+          <h4>{{ post.title | escape }}</h4>
+          <legend> {{ post.content | escape }}</legend>
         </figure>
       </li>
-      <li>
-        <figure>
-          <img src="assets/images/projects3.png" alt="#">
-          <h4>Self Driving Cars Research</h4>
-          <legend> #UX #UXRearch #SelfDrivingCars #Sustainability
-          </legend>
-        </figure>
-      </li>
-      <li>
-        <figure>
-          <img src="assets/images/projects4.png" alt="#">
-          <h4>Website Porbatata</h4>
-          <legend> #ClientPorbatata #CompanyTerraProjectos
-          </legend>
-        </figure>
-      </li>
-      <li>
-        <figure>
-          <img src="assets/images/projects5.png" alt="#">
-          <h4>Website Frutas Tereso</h4>
-          <legend> #ClientFrutasTereso #CompanyTerraProjectos #Branding #Packaging #Website
-          </legend>
-        </figure>
-      </li>
-      <li>
-        <figure>
-          <img src="assets/images/projects1.png" alt="#">
-          <h4>Emissão de Selos 2017</h4>
-          <legend>
-            #Frutas de Portugal #CTT #CompanyTerraProjectos #Illustrstion
-          </legend>
-        </figure>
-      </li>
-      <li>
-        <figure>
-          <img src="assets/images/projects6.png" alt="#">
-          <h4>O Baralho dos Proverbios</h4>
-          <legend> Project developed in the Master Degree Dissertation, #Illustration #Cards #Proverbs
-          </legend>
-        </figure>
-      </li>
+      {% endfor %}
+
     </ul>
   </section>
 </section>

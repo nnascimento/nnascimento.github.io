@@ -3,7 +3,7 @@ author: Natali Nascimento
 email: nascimento.do.nascimento@gmail.com
 description: > # this means to ignore newlines until "exclude"
  Portfolio Natali Nascimento, work in progress
-baseurl: /jekyll-dxd
+baseurl:
 
 exclude:
   - Gemfile

@@ -11,10 +11,10 @@ layout: default
 <main>
 
 <div class="row container">
-  <div class="column column1">
+  <div class="col-sm-12 col-md-4">
     <img src="assets/images/perfilnatali.png" alt="Foto de Perfil">
   </div>
-  <div class="column">
+  <div class="col-sm-12 col-md-8">
     <h2>Great design is more about the users than the maker</h2>
     <p>Motivated Designer always looking for a good new challenge to wrap my mind into. Started my journey in Communication Design, aiming for more decided to adventure myself into a post degree in Digital Expirience Design. Growing interest and curiosity in projects concerning Digital Design, Interaction Design, User Experience, User Interface, WebDesign, AppDesign, and what more the world has to offer. You can check out my portfolio in the links below!</p>
     <button type="button" name="button"><a href="#contacts">Contacts</a></button>
@@ -23,10 +23,10 @@ layout: default
 
 <section id="skills">
   <div class="row">
-    <div class="column column1">
+    <div class="col-sm-12 col-md-4"">
       <h1>Skills</h1>
     </div>
-    <div class="column">
+    <div class="col-sm-12 col-md-8"">
       <ul>
         <li>
           <img src="assets/images/ux.svg" alt="icon ux desgin" class="icons">
@@ -48,10 +48,10 @@ layout: default
   </div>
 
   <div class="row">
-    <div class="column column1 column1-padding">
+    <div class="col-sm-12 col-md-4 column1-padding">
       <h1>Tools</h1>
     </div>
-    <div class="column tools column1-padding">
+    <div class="col-sm-12 col-md-8 tools column1-padding">
       <ul>
         <li>
           <img src="assets/images/figma.svg" alt="icon figma" class="icons">
@@ -79,9 +79,9 @@ layout: default
   </div>
 </section>
 
-<section class="container" id="projects">
+<section  id="projects">
   <div class="row">
-    <div class="column column1">
+    <div class="col-sm-12 col-md-4">
       <h1>Latest projects</h1>
     </div>
   </div>
@@ -92,28 +92,30 @@ layout: default
       {% for post in site.posts %}
       <li>
         <figure>
-          <img src="{{ post.image | escape }}" alt="#">
+          <a href="{{ post.api }}"><img src="{{ post.image | escape }}" alt="#"></a>
           <h4>{{ post.title | escape }}</h4>
-          <legend>{{ post.content | escape }}</legend>
+          {{ post.content | escape }}
         </figure>
       </li>
       {% endfor %}
-
-{% for tag in sites.tags %}
+	  
+	  {% for tag in site.tags %}
 	<a href="#{{ tag | slugify }}"> {{ tag }} </a>
-{% endfor %}
+	{% endfor %}
+
     </ul>
   </section>
 </section>
 
+
 <section id="about">
   <div class="row">
-    <div class="column column1">
+    <div class="col-sm-12 col-md-4">
       <h1>About</h1>
       <img src="assets/images/perfilnatali.png" alt="Foto de Perfil">
       <p>Motivated Designer always looking for a good new challenge to wrap my mind into. Started my journey in Communication Design, aiming for more decided to adventure myself into a post degree in Digital Expirience Design. Growing interest and curiosity in projects concerning Digital Design, Interaction Design, User Experience, User Interface, WebDesign, AppDesign, VR/AR Design, and what more the world has to offer.</p>
     </div>
-    <div class="column">
+    <div class="col-sm-12 col-md-8">
       <ul>
         <li>
           <img src="assets/images/suitcase.svg" alt="icon experiência" class="icons">
@@ -137,7 +139,9 @@ layout: default
           <span title="Descrição">Advanced skills in design in the various scales and dimensions (conceptual, cultural, social, technological, productive, organizational); Technological skills in the field of prepress and digital finishing art;</span>
         </li>
       </ul>
-      <button type="button" name="button"><a href="assets/images/cv.pdf" target="_blank"> Complete Resume</a></button>
+        <button type="button" name="button"><a href="assets/images/cv.pdf" target="_blank"> Complete Resume</a></button>
+
+
     </div>
   </div>
 </section>

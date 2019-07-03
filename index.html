@@ -92,7 +92,7 @@ layout: default
       {% for post in site.posts %}
       <li>
         <figure>
-          <a href="{{ post.api }}"><img src="{{ post.image | escape }}" alt="#"></a>
+          <img src="{{ post.image | escape }}" alt="#">
           <h4>{{ post.title | escape }}</h4>
           <legend>{{ post.content | escape }} {{ post.tags | escape }}</legend>
         </figure>

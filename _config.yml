@@ -1,8 +1,9 @@
-title: Portfolio NNascimento
+title: Portfólio Natali Nascimento
 author: Natali Nascimento
-email: natali@nascimento.com
+email: nascimento.do.nascimento@gmail.com
 description: > # this means to ignore newlines until "exclude"
-  alterar descrição
+ Portfolio Natali Nascimento, work in progress
+baseurl: /jekyll-dxd
 
 exclude:
   - Gemfile
@@ -14,3 +15,9 @@ exclude:
 # refer to http://shopify.github.io/liquid/filters/date/ if you
 # want to customize this
 date_format: "%b %-d, %Y"
+
+# generate social links in footer
+social_links:
+  twitter: danielfdsilva
+  github:  danielfdsilva
+  # facebook:

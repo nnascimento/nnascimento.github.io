@@ -1,7 +1,6 @@
 ---
 layout: default
-title: "Web App Doctor Sizo"
-image: assets/images/projects2.png
-
-api: https://www.behance.net/gallery/77427087/Case-Study-webapp-Doctor-Siso
+title: "Hope's Buddy, MVP APP"
+image: assets/images/project3.png
+api: https://www.behance.net/gallery/81549779/Hopes-Buddy-An-app-to-gamify-the-cure-process
 ---

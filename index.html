@@ -95,11 +95,18 @@ layout: default
           <img src="{{ post.image | escape }}" alt="#">
           <h4>{{ post.title | escape }}</h4>
           <legend>{{ post.content | escape }}</legend>
-		  <legend>{{ site.tags | escape }}</legend>
         </figure>
       </li>
       {% endfor %}
 
+% for category in site.tags %}
+  <h3>{{ category[0] }}</h3>
+  <ul>
+    {% for post in category[1] %}
+      <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+{% endfor %}
     </ul>
   </section>
 </section>

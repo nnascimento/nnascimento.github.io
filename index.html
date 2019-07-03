@@ -94,7 +94,8 @@ layout: default
         <figure>
           <img src="{{ post.image | escape }}" alt="#">
           <h4>{{ post.title | escape }}</h4>
-          <legend>{{ post.content | escape }} {{ post.tags | escape }}</legend>
+          <legend>{{ post.content | escape }}</legend>
+		  <legend>{{ post.tags | escape }}</legend>
         </figure>
       </li>
       {% endfor %}

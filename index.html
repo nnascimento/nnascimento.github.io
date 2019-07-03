@@ -99,7 +99,7 @@ layout: default
       </li>
       {% endfor %}
 
-{% for tag in tags %}
+{% for tag in sites.tags %}
 	<a href="#{{ tag | slugify }}"> {{ tag }} </a>
 {% endfor %}
     </ul>
